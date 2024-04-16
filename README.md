@@ -72,22 +72,6 @@ volatile uint8 gSendAverage = 0; //Flag set every second
 * Function Name: main
 ********************************************************************************
 *
-* Summary:
-*  main() performs following functions:
-*  1: Starts the ADC and UART components.
-*  2: Checks for ADC end of conversion.  Stores latest result in output
-*     if conversion complete.
-*  3: Checks for UART input.
-*     On 'C' or 'c' received: transmits the last sample via the UART.
-*     On 'S' or 's' received: continuously transmits samples as they are completed.
-*     On 'X' or 'x' received: stops continuously transmitting samples.
-*     On 'E' or 'e' received: transmits a dummy byte of data.
-*
-* Parameters:
-*  None.
-*
-* Return:
-*  None.
 *
 *******************************************************************************/
 int main()
