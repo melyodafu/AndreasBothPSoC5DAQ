@@ -1,4 +1,5 @@
 This README contains all the edited files of this project (main.c isr_eoc_getValue.c and isr_averageData.c)
+I added the account kimmosa as a collaborator of this project so you should be able to edit it.
 ```
 /******************************************************************************
 * File Name: main.c
